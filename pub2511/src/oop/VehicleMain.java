@@ -74,10 +74,27 @@ public class VehicleMain {
 		// 3명이 Bus를 타고 5명이 Bicycle을 타고 2명이 Airplane을
 		// 탄다고 했을 때 총 요금을 연산
 		
+		Vehicle vv = new Vehicle();		
+		vv.setPrice(1000);
+		Vehicle bu = new Bus();				
+		bu.setPrice((int)(vv.getPrice() * 1.5));
+		Vehicle bi = new Bicycle();			
+		bi.setPrice((int)(vv.getPrice() * 0.5));
+		Vehicle ai = new Airplane();		
+		ai.setPrice(vv.getPrice() * 30);
 		
-	}
+		Vehicle[] vvArr = {bu, bu, bu, bi, bi, bi, bi, bi, ai, ai, ai};
+		
+		int priceSum = 0;
+		for (Vehicle v : vvArr) {
+			priceSum += v.getPrice();
+		}
+		
+		System.out.printf("요금 총합 : %d", priceSum);
+		
+	} // main
 
-}
+} // class
 
 
 

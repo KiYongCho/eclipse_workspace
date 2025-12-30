@@ -2,14 +2,15 @@ package oop;
 
 // 탈것을 추상화한 클래스
 public class Vehicle {
-	
+
 	// 탈것이 가지는 공통의 데이터 / 변수
 	private String name; // 이름
 	private boolean hasEngine; // 엔진보유 여부
-	
+	private int price; // 요금
+
 	public Vehicle() {
 	}
-	
+
 	public Vehicle(String name) {
 		this.name = name;
 	}
@@ -35,7 +36,15 @@ public class Vehicle {
 	public void setHasEngine(boolean hasEngine) {
 		this.hasEngine = hasEngine;
 	}
-	
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
 	// @Override : 오버라이딩한 메소드인지 컴파일타임에 검증하는 어노테이션(annotation)
 	@Override
 	public String toString() {
@@ -43,15 +52,3 @@ public class Vehicle {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
