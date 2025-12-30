@@ -1,0 +1,169 @@
+[크리스마스 선물]
+
+* 아래 용어들에 대해 학습하고 정리해서 제출하세요!
+* 기한 : 12/28(일) 밤 12시 이전까지 
+* 제출방식 : OOP개념정리_이름.txt로 과정 단톡방에 업로드
+
+객체(Object)
+
+클래스(Class)
+
+메시지(Message)
+
+책임(Responsibility)
+
+협력(Collaboration)
+
+역할(Role)
+
+상태(State)
+
+행동(Behavior)
+
+캡슐화 (Encapsulation)
+
+상속 (Inheritance)
+
+다형성 (Polymorphism)
+
+추상화 (Abstraction)
+
+필드(Field)
+
+메서드(Method)
+
+생성자(Constructor)
+
+인스턴스(Instance)
+
+인스턴스 변수
+
+인스턴스 메서드
+
+클래스 변수(static)
+
+클래스 메서드(static method)
+
+객체 생성(new)
+
+this
+
+객체 참조(reference)
+
+접근제어자
+
+public
+
+protected
+
+default(package-private)
+
+private
+
+정보 은닉(Information Hiding)
+
+getter / setter
+
+불변 객체(Immutable Object)
+
+extends
+
+부모 클래스 (Super class)
+
+자식 클래스 (Sub class)
+
+super
+
+메서드 오버라이딩(Overriding)
+
+메서드 오버로딩(Overloading)
+
+final (상속/오버라이딩 제한)
+
+다중 상속 제한 (자바 특징)
+
+부모 타입 참조
+
+업캐스팅(Upcasting)
+
+다운캐스팅(Downcasting)
+
+instanceof
+
+동적 바인딩(Dynamic Binding)
+
+런타임 다형성
+
+컴파일 타임 다형성
+
+추상 클래스(Abstract Class)
+
+추상 메서드(Abstract Method)
+
+인터페이스(Interface)
+
+implements
+
+default method (Java 8+)
+
+다중 구현
+
+의존성 분리
+
+Association (연관)
+
+Aggregation (집합)
+
+Composition (합성)
+
+Dependency (의존)
+
+has-a 관계
+
+is-a 관계
+
+응집도(Cohesion)
+
+결합도(Coupling)
+
+단일 책임 원칙(SRP)
+
+개방-폐쇄 원칙(OCP)
+
+리스코프 치환 원칙(LSP)
+
+인터페이스 분리 원칙(ISP)
+
+의존 역전 원칙(DIP)
+
+SOLID 원칙
+
+객체 생명주기(Lifecycle)
+
+의존성 주입(DI)
+
+IoC (제어의 역전)
+
+디자인 패턴
+
+전략 패턴
+
+싱글톤
+
+팩토리
+
+템플릿 메서드
+
+도메인 모델
+
+DTO / VO / Entity
+
+
+
+
+
+
+
+
+
+
