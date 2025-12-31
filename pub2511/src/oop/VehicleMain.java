@@ -83,7 +83,7 @@ public class VehicleMain {
 		Vehicle ai = new Airplane();		
 		ai.setPrice(vv.getPrice() * 30);
 		
-		Vehicle[] vvArr = {bu, bu, bu, bi, bi, bi, bi, bi, ai, ai, ai};
+		Vehicle[] vvArr = {bu, bu, bu, bi, bi, bi, bi, bi, ai, ai};
 		
 		int priceSum = 0;
 		for (Vehicle v : vvArr) {
