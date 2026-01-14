@@ -59,7 +59,6 @@ public class GsonPubData {
 					new TypeToken<List<Item>>() {}.getType()
 				);
 				
-				
 				itemList.stream().forEach(item -> {
 					System.out.printf(
 						"아파트코드:%s, 아파트명:%s, 도로명주소:%s %s %s\n", item.getKaptCode(), 
