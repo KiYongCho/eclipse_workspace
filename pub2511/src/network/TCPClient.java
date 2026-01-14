@@ -23,7 +23,7 @@ public class TCPClient {
 		try {
 			
 			// 클라이언트소켓 생성
-			clientSocket = new Socket("192.168.8.254", 5000); // 서버IP, 포트번호
+			clientSocket = new Socket("192.168.8.254", 5555); // 서버IP, 포트번호
 			
 			// 클라이어트소켓에서 서버로 바이너리를 전송할 스트림을 얻어서 문자스트림으로 변경
 			pw = new PrintWriter(

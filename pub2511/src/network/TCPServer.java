@@ -29,7 +29,7 @@ public class TCPServer {
 		try {
 			
 			// 서버소켓 객체 생성
-			ss = new ServerSocket(5000); // 서버소켓 포트번호
+			ss = new ServerSocket(5555); // 서버소켓 포트번호
 			if (ss != null) { // 서버소켓이 생성 되었다면
 				System.out.println("ServerSocket 생성됨!");				
 			}
