@@ -2,8 +2,6 @@ package gson.ex;
 
 import java.io.Serializable;
 
-import javax.xml.transform.Source;
-
 public class Article implements Serializable {
 	
 	private static final long serialVersionUID = 92387489324938942L;

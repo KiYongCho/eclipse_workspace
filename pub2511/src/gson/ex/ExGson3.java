@@ -38,7 +38,8 @@ public class ExGson3 {
 			List<User> userList = gson.fromJson(jsonStr, new TypeToken<List<User>>() {
 			}.getType());
 
-			userList.stream().filter(user -> user.getWebsite().endsWith(".com")).forEach(System.out::println);
+			userList.stream().filter(user -> user.getWebsite().endsWith(".com"))
+				.forEach(System.out::println);
 
 		} catch (Exception ex) {
 			ex.printStackTrace();

@@ -37,7 +37,8 @@ public class ExGson4 {
 			News news = gson.fromJson(jsonStr, News.class);
 
 			news.getArticles().stream()
-					.filter(article -> article.getTitle().contains("Trump") || article.getContent().contains("Trump"))
+					.filter(article -> article.getTitle()
+							.contains("Trump") || article.getContent().contains("Trump"))
 					.forEach(System.out::println);
 
 		} catch (Exception ex) {
